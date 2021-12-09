@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+img{
+    text-align: center;
+    padding-right: 10px;
+}
+body{
+    background-color: rgb(124, 76, 43);
+    border-radius: 10pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a{
+    font-size: 20pt;
+    background-color: rgb(182, 113, 11);
+    text-decoration: none;
+    padding: 7px;
+}
+.ip{
+    background-color: rgb(182, 113, 11);
+    display: inline;
+    font-size: 30pt;
+    outline-width: 5px;
+    outline-style: solid;
+    outline-color: rgb(182, 113, 11);
+    margin: 20pt 10pt 5pt 0pt;
+
+}
+.especial{
+    background-color: rgb(218, 218, 99);
+    text-align: center;
+    outline-width: 8px;
+    outline-style: solid;
+    outline-color: rgb(0, 0, 0);
+    font-size: 10pt;
+    margin: 20pt 10pt 10pt 10pt;
+    padding: 5pt 0pt 5pt 0pt;
+}
+#op{
+    background-color: rgb(182, 113, 11);
+    outline-width: 8px;
+    outline-style: solid;
+    outline-color: rgb(0, 0, 0);
+    margin: 20pt 10pt 10pt 10pt;
+}
+main:hover{
+    transition: 2s;
+    background-color: rgb(235, 238, 228);
+    border: 0.5pc solid black;
+}
+main > p{
+    display: none;
+}
+main:hover > p{
+    display: block;
+    color: rgb(0, 0, 0);
+}
+#sera{
+    background-color: rgb(74, 83, 83);
+    color: cornsilk;
+    border-radius: 10pt;
+}
+a:visited{
+    color: rgb(0, 0, 0);
+}
+a:hover{
+    background-color: rgb(196, 137, 49);
+    transition-duration: 0.30s;
+    border-radius: 20pt;
+}
